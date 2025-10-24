@@ -66,7 +66,7 @@ function generateReport() {
 }
 
 function searchCondition(){
-    const input = document.getElementById('conditionInput').value.tolowercase();
+    const input = document.getElementById('conditionInput').value.tolowerCase();
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML= '';
 
